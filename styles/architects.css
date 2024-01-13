@@ -5,11 +5,14 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+.text-light-grey{
+    color: #727272;
+}
 .btn-primary{
     border-radius: 8px;
     color: white;
     font-size: 1.25rem;
-    font-weight: ;
+    font-weight: 600;
     background: #FF900E;
     padding: 20px 25px;
     border: 0;
@@ -64,12 +67,39 @@ nav li a {
     font-weight: 700;
 }
 
-.banner-description{
-    color: #727272;
-}
 .banner img{
     margin-top: 40px;
     width: 100%;
+}
+
+
+/* main style*/
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+/* teams-styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.teams-img-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); 
+     gap: 1.5rem;
+}     
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title .quick-list{
+    font-weight: 500;
+}
+.teams-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
 }
 
 /* responsive media quaries */
@@ -88,7 +118,4 @@ nav li a {
     nav{
         flex-direction: column;
     }
-
-
 }
-
